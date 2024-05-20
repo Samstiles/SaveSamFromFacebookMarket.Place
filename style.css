@@ -107,13 +107,13 @@ p {
   color: lightgray;
 }
 
-.listing img {
+.listing a img {
   transition: all 150ms ease;
   max-height: 300px;
   max-width: 300px;
 }
 
-.listing img:hover {
+.listing a img:hover {
   transform: scale(1.25);
   box-shadow: 0 0 10px #fff;
 }
