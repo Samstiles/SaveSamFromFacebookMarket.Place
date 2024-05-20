@@ -63,7 +63,7 @@ p {
   height: 2px;
   width: 100%;
   background-color: #fff;
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
 .contact h2 {
@@ -83,13 +83,42 @@ p {
   justify-content: center;
 }
 
-.listing h3 {
-  font-size: 32px;
+.listing h3,
+.listing h4,
+.listing p {
   margin: 0;
-  padding: 0 0 50px 0;
+  padding: 0;
+}
+
+.listing h3 {
+  font-size: 45px;
+  color: rgb(0, 146, 0);
+}
+
+.listing h4 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.listing p {
+  font-size: 18px;
+  max-width: 450px;
+  margin-bottom: 20px;
+  color: lightgray;
 }
 
 .listing img {
+  transition: all 150ms ease;
   max-height: 300px;
   max-width: 300px;
+}
+
+.listing img:hover {
+  transform: scale(1.25);
+  box-shadow: 0 0 10px #fff;
+}
+
+span.end-of-site {
+  margin-top: 300px;
+  display: block;
 }
